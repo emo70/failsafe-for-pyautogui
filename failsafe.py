@@ -5,7 +5,7 @@ import win32con
 import time
 import datetime
 
-pyautogui.FailSafeException
+
 # When capslock is enabled exit program. If you want to use a keybind use the keyboard module
 def caps():
     if win32api.GetKeyState(win32con.VK_CAPITAL) == 1:
